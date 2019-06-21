@@ -3,7 +3,6 @@ console.log('API Route Connected Successfully');
 // Link in Friends Data
 var friendsData = require('../data/friends.js');
 
-
 // Includes Two Routes
 function apiRoutes(app) {
 
@@ -56,12 +55,8 @@ function apiRoutes(app) {
     // ***NOTE*** If the 2 friends have the same comparison, then the NEWEST entry in the friendsData array is chosen
     var bestFriendMatch = friendsData[bestMatchPosition];
 
-
-
     // Reply with a JSON object of the best match
     res.json(bestFriendMatch);
-
-
 
     // Push the new friend to the friends data array for storage
     friendsData.push(newFriend);
@@ -69,7 +64,6 @@ function apiRoutes(app) {
   });
 
 }
-
 
 // Export for use in main server.js file
 module.exports = apiRoutes;
