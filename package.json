@@ -1,7 +1,7 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "A fullstack dating application.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomtom28/FriendFinder.git"
+    "url": "git+https://github.com/amandanewton/FriendFinder.git"
   },
-  "author": "tomtom28",
+  "author": "amandanewton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomtom28/FriendFinder/issues"
+    "url": "https://github.com/amandanewton/FriendFinder/issues"
   },
-  "homepage": "https://github.com/tomtom28/FriendFinder#readme",
+  "homepage": "https://github.com/amandanewton/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
